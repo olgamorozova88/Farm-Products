@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Farm-Products/static/css/main.e589de9d.css",
+    "main.js": "/Farm-Products/static/js/main.9deebc96.js",
+    "static/media/hero-image.svg": "/Farm-Products/static/media/hero-image.9ff8131c4c6c9caa7bb92f8694d36655.svg",
+    "static/media/garbage.svg": "/Farm-Products/static/media/garbage.bfc5dd9e0b18f7155f969fe9ed16941e.svg",
+    "static/media/logo.svg": "/Farm-Products/static/media/logo.4f2a5cafb26b3276c0057c5b8712d429.svg",
+    "static/media/sprout.svg": "/Farm-Products/static/media/sprout.f0b6c1e867b51302efc90ad2e3754d24.svg",
+    "static/media/eat.svg": "/Farm-Products/static/media/eat.9f700a8a251c6539920d1c2588a7386c.svg",
+    "static/media/no-meat.svg": "/Farm-Products/static/media/no-meat.96f78eb52edcea293c847f8fbac21983.svg",
+    "index.html": "/Farm-Products/index.html",
+    "static/media/tick.svg": "/Farm-Products/static/media/tick.1727fc9c017570fe2a94211a0f258ad5.svg",
+    "static/media/Inter-Regular.woff2": "/Farm-Products/static/media/Inter-Regular.58b76a20695ffedad5a3.woff2",
+    "static/media/Inter-Regular.woff": "/Farm-Products/static/media/Inter-Regular.78821f8eaa13da7a4ff3.woff",
+    "static/media/Inter-Bold.woff2": "/Farm-Products/static/media/Inter-Bold.b9a388fbc08ff00ac5a5.woff2",
+    "static/media/Inter-Bold.woff": "/Farm-Products/static/media/Inter-Bold.9389aaef62c2be6e7314.woff",
+    "main.e589de9d.css.map": "/Farm-Products/static/css/main.e589de9d.css.map",
+    "main.9deebc96.js.map": "/Farm-Products/static/js/main.9deebc96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e589de9d.css",
+    "static/js/main.9deebc96.js"
+  ]
+}
