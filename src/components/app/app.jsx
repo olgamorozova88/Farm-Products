@@ -10,7 +10,7 @@ import products from "../../mocks/products";
 const App = () => (
   <>
     <GlobalStyle />
-    <Router>
+    <Router basename="/Farm-Products/">
       <Routes>
         <Route path={AppRoutes.MAIN} element={<PageWrapper />}>
           <Route index element={<MainPage features={features} />} />
