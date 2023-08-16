@@ -1,19 +1,19 @@
 import StyledButton from "./styled";
 
 const Button = ({
+  className,
   minWidth,
   link,
-  isMainLink,
   isFormButton,
   children,
   onClick,
   ...props
 }) => (
   <StyledButton
+    className={className}
     $minWidth={minWidth}
     {...(link ? { to: link } : { as: "button" })}
     {...(isFormButton ? { type: "submit" } : { type: "button" })}
-    $isMainLink={isMainLink}
     onClick={onClick}
     {...props}
   >

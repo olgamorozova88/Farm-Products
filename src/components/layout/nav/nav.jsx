@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { AppRoutes } from "../../../const";
 import Button from "../../ui/button/button";
+import MainPageButton from "./styled";
 
 const Nav = () => {
   const { pathname } = useLocation();
@@ -9,9 +10,9 @@ const Nav = () => {
       Купить
     </Button>
   ) : (
-    <Button minWidth={260} link={AppRoutes.MAIN} isMainLink>
+    <MainPageButton minWidth={260} link={AppRoutes.MAIN}>
       Главная
-    </Button>
+    </MainPageButton>
   );
 };
 

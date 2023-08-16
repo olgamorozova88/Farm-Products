@@ -9,6 +9,7 @@ const StyledButton = styled(Link)`
   background-color: ${(props) => props.theme.buttonColor};
   color: ${(props) => props.theme.whiteColor};
   font-weight: 700;
+  font-size: ${(props) => props.theme.fontSize};
   padding: 16px;
   border: none;
   cursor: pointer;
@@ -23,16 +24,6 @@ const StyledButton = styled(Link)`
   &:active {
     box-shadow: none;
   }
-  ${(props) =>
-    props.$isMainLink &&
-    `
-      background-color: transparent;
-      color: inherit;
-      &:hover, &:active {
-        background-color: transparent;
-        box-shadow: none;
-      }
-  `}
 
   &:disabled {
     opacity: 0.5;

@@ -4,13 +4,15 @@ import GlobalStyle from "./styled";
 import PageWrapper from "../layout/page-wrapper/page-wrapper";
 import MainPage from "../pages/main-page/main-page";
 import Order from "../pages/order/order";
+import ScrollToTop from "../ui/scroll-to-top/scroll-to-top";
 import features from "../../mocks/features";
 import products from "../../mocks/products";
 
 const App = () => (
   <>
     <GlobalStyle />
-    <Router basename="/Farm-Products/">
+    <Router basename="farm-products">
+      <ScrollToTop />
       <Routes>
         <Route path={AppRoutes.MAIN} element={<PageWrapper />}>
           <Route index element={<MainPage features={features} />} />
